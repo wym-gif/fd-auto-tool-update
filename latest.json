@@ -1,10 +1,11 @@
 {
-  "latestVersion": "1.0.9",
+  "latestVersion": "1.0.10",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.9/fd-auto-tool-patch-v1.0.9.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.10/fd-auto-tool-patch-v1.0.10.zip",
   "notes": [
-    "系统显示名称改为“妙券自动发单🚀”",
-    "预览确认页、黑窗口启动提示和页面确认提示同步使用新名称",
+    "修复控制台“立即更新”点击后看起来没反应的问题",
+    "点击立即更新后立刻显示更新状态，不再先弹浏览器确认框",
+    "更新失败时页面会显示具体失败原因",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
