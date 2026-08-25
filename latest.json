@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.0.5",
+  "latestVersion": "1.0.6",
   "minVersion": "1.0.4",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.5/fd-auto-tool-patch-v1.0.5.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.6/fd-auto-tool-patch-v1.0.6.zip",
   "notes": [
-    "控制台新增检查更新和立即更新入口",
-    "后续可通过固定 GitHub 更新源安装补丁",
+    "修正 1.0.5 完整包打包路径问题",
+    "确保发单控制台显示检查更新按钮",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
