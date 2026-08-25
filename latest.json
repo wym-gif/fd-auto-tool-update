@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.0.11",
+  "latestVersion": "1.0.12",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.11/fd-auto-tool-patch-v1.0.11.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.12/fd-auto-tool-patch-v1.0.12.zip",
   "notes": [
-    "控制台运行状态新增等待进度显示",
-    "监控飞书等待下一次检查时会显示百分比和小进度条",
-    "生成预览后状态会更新为预览已生成，等待确认",
+    "修复精推 T3（下面还说话）互动托归组",
+    "同一节奏内同编号互动托会放在一起并重新排时间",
+    "网页控制台同步显示扫描飞书和素材下载进度",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
