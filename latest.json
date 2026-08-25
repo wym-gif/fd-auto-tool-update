@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.0.7",
+  "latestVersion": "1.0.8",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.7/fd-auto-tool-patch-v1.0.7.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.8/fd-auto-tool-patch-v1.0.8.zip",
   "notes": [
-    "操作页面名称改为“妙券自动发单”",
-    "预览确认页名称改为“妙券自动发单 - 预览确认”",
-    "更新不会覆盖配置、历史记录、素材缓存和运行记录"
+    "优化立即更新按钮反馈，点击后会显示正在更新",
+    "在线更新过程会在黑窗口输出检查、下载、解压、安装和结果提示",
+    "已是最新版时会明确提示当前版本"
   ]
 }
