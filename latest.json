@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.0.10",
+  "latestVersion": "1.0.11",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.10/fd-auto-tool-patch-v1.0.10.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.11/fd-auto-tool-patch-v1.0.11.zip",
   "notes": [
-    "修复控制台“立即更新”点击后看起来没反应的问题",
-    "点击立即更新后立刻显示更新状态，不再先弹浏览器确认框",
-    "更新失败时页面会显示具体失败原因",
+    "控制台运行状态新增等待进度显示",
+    "监控飞书等待下一次检查时会显示百分比和小进度条",
+    "生成预览后状态会更新为预览已生成，等待确认",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
