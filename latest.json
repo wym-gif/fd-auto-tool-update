@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.0.12",
+  "latestVersion": "1.0.13",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.12/fd-auto-tool-patch-v1.0.12.zip",
+  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.13/fd-auto-tool-patch-v1.0.13.zip",
   "notes": [
-    "修复精推 T3（下面还说话）互动托归组",
-    "同一节奏内同编号互动托会放在一起并重新排时间",
-    "网页控制台同步显示扫描飞书和素材下载进度",
+    "互动托标注语不会再发成正文",
+    "同编号互动托后续再次出现会继承同一互动组",
+    "预览和创建顺序会把同一个互动托收在一起，原定时间不改",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
