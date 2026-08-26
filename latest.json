@@ -1,11 +1,12 @@
 {
-  "latestVersion": "1.0.13",
+  "latestVersion": "1.0.14",
   "minVersion": "1.0.6",
-  "patchUrl": "https://github.com/wym-gif/fd-auto-tool-update/releases/download/v1.0.13/fd-auto-tool-patch-v1.0.13.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v1.0.14.zip",
   "notes": [
-    "互动托标注语不会再发成正文",
-    "同编号互动托后续再次出现会继承同一互动组",
-    "预览和创建顺序会把同一个互动托收在一起，原定时间不改",
+    "创建任务前校验预览内容，避免预览有内容但创建时漏填",
+    "文字填入后读回核对，不完整自动重填",
+    "普通输入仍不完整时使用剪贴板粘贴兜底",
+    "图片、表情包、视频创建前检查本地素材文件",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录"
   ]
 }
