@@ -1,12 +1,11 @@
 {
-  "latestVersion": "1.0.14",
-  "minVersion": "1.0.6",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v1.0.14.zip",
+  "latestVersion": "2.0.1",
+  "minVersion": "2.0.0",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.1.zip",
   "notes": [
-    "创建任务前校验预览内容，避免预览有内容但创建时漏填",
-    "文字填入后读回核对，不完整自动重填",
-    "普通输入仍不完整时使用剪贴板粘贴兜底",
-    "图片、表情包、视频创建前检查本地素材文件",
-    "更新不会覆盖配置、历史记录、素材缓存和运行记录"
+    "发送日期默认今天，不再继承旧日期。",
+    "普通消息头日期只作为原日期显示，不再当作发送日期。",
+    "只有有效日期标题才切换发送日期，过期日期标题会被忽略。",
+    "更新不会覆盖配置、历史记录、素材缓存和运行记录。"
   ]
 }
