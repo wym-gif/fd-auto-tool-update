@@ -1,11 +1,11 @@
 {
-  "latestVersion": "2.0.2",
-  "minVersion": "2.0.0",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.2.zip",
+  "latestVersion": "2.0.6",
+  "minVersion": "2.0.5",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.6.zip",
   "notes": [
-    "授权状态会自动重试刷新，恢复后自动解锁生成预览按钮。",
-    "可控浏览器、授权、运行状态任一变化后都会重新计算按钮状态。",
-    "服务端授权逻辑保留电脑授权为主，版本只作为日志记录。",
+    "本轮创建完成后，控制台显示“本轮已创建完成”和“开始下一轮发单”。",
+    "开始下一轮只清理运行状态和旧预览，保留飞书链接、时间模式、间隔和云中客常用配置。",
+    "云中客设置阶段按钮改为“我已设置好，开始创建任务”，避免和预览确认混淆。",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录。"
   ]
 }
