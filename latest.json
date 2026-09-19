@@ -1,11 +1,13 @@
 {
-  "latestVersion": "2.0.6",
-  "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.6.zip",
+  "latestVersion": "2.0.7",
+  "minVersion": "2.0.6",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.7.zip",
   "notes": [
-    "本轮创建完成后，控制台显示“本轮已创建完成”和“开始下一轮发单”。",
-    "开始下一轮只清理运行状态和旧预览，保留飞书链接、时间模式、间隔和云中客常用配置。",
-    "云中客设置阶段按钮改为“我已设置好，开始创建任务”，避免和预览确认混淆。",
+    "自定义间隔方案支持保存、选择后自动应用、方案设置里改名/更新/删除。",
+    "实时跟发和补发只要填写自定义间隔，就严格按自定义间隔排时间，不再被结束时间拉长。",
+    "预览页精简顶部操作，只保留重新生成预览和确认进入云中客设置。",
+    "修复飞书同一素材被识别成表情包和图片两条的问题。",
+    "启动入口改为直接双击可用，自动拉起后台和专用可控浏览器。",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录。"
   ]
-}
+}\n
