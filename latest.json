@@ -1,6 +1,6 @@
 {
   "latestVersion": "2.0.7",
-  "minVersion": "2.0.6",
+  "minVersion": "2.0.5",
   "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.0.7.zip",
   "notes": [
     "自定义间隔方案支持保存、选择后自动应用、方案设置里改名/更新/删除。",
@@ -10,4 +10,4 @@
     "启动入口改为直接双击可用，自动拉起后台和专用可控浏览器。",
     "更新不会覆盖配置、历史记录、素材缓存和运行记录。"
   ]
-}\n
+}
