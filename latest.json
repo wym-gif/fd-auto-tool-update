@@ -1,11 +1,11 @@
 {
-  "latestVersion": "2.1.1",
+  "latestVersion": "2.1.2",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.1.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.2.zip",
   "notes": [
-    "修复从文案库打开预览后只修改时间的流程：保存当前 preview.json 后，会优先复用已设置好的云中客页面。",
-    "条数、顺序和托/豆妈归属未变化时，可直接回控制台开始创建，不再因为未覆盖文案库原文案而要求重新进入云中客设置。",
-    "保留 2.1.0 的精准托名单、托人设库、视频号参数和粗略托/精准托机器人更换逻辑隔离等功能。",
+    "修复文案库管理里“改名”“删除”点了没反应的问题，改为控制台页面内确认弹窗。",
+    "文案库改名或删除后会同步刷新右侧文案库列表和“管理文案库”弹窗列表，删除当前使用文案时会清掉当前使用标记。",
+    "使用文案库保存的预览时，读取范围和时间模式一般不用改；页面已补充对应提示，避免误操作。",
     "更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
   ]
 }
