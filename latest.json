@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.4",
+  "latestVersion": "2.1.5",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.4.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.5.zip",
   "notes": [
-    "新增授权总控准实时设备监控：客户端上报心跳、版本和更新状态，总控页面自动刷新在线状态。",
-    "精准托按表格备注动态识别人设，主托、备选托和更多备选可按人设选择，预览页布局更紧凑对齐。",
-    "同一互动托分组会固定复用同一个托；同人设按托数量轮换冷却，减少重复使用。",
-    "机器人不在群的默认自动重试上限提高到 5 次，仍可手动修改。",
+    "授权总控新增使用报表：按今日、本周、上周查看每台电脑的使用次数、时长和任务数。",
+    "员工端正式创建开始和结束时会上报脱敏统计，只包含设备、版本、时间、任务数量和运行状态。",
+    "使用报表不上传正文、素材、群名或业务内容。",
+    "总控页面继续保留设备授权、版本、在线状态和更新状态。",
     "更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
   ]
 }
