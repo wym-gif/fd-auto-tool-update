@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.6",
+  "latestVersion": "2.1.7",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.6.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.7.zip",
   "notes": [
-    "从文案库打开预览时，可发送条目的日期默认改为今天，原文案库不会被覆盖。",
-    "预览页粗略托模式恢复显示“说话人”，精准托模式才显示人设、托号昵称和备选托。",
-    "文案库预览页顶部增加醒目的日期提示，并把本机路径收进高级/调试信息。",
-    "授权总控使用报表支持点击详情查看每轮开始/结束、任务进度、脱敏场景和失败/中止原因。",
+    "修复云中客确认弹窗已提示机器人不在群时仍可能继续点确认创建的问题。",
+    "点击开始下一轮后会清理旧 runId，避免又恢复上一轮预览或旧云中客准备状态。",
+    "正式创建时恢复以绿色任务创建成功提示作为成功依据，确认弹窗未触发时按原逻辑重试一次。",
+    "运行中会切到当前任务对应的托/豆妈云中客页，重试、跳过和继续控制会更及时生效。",
     "更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
   ]
 }
