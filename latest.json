@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.5",
+  "latestVersion": "2.1.6",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.5.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.6.zip",
   "notes": [
-    "授权总控新增使用报表：按今日、本周、上周查看每台电脑的使用次数、时长和任务数。",
-    "员工端正式创建开始和结束时会上报脱敏统计，只包含设备、版本、时间、任务数量和运行状态。",
-    "使用报表不上传正文、素材、群名或业务内容。",
-    "总控页面继续保留设备授权、版本、在线状态和更新状态。",
+    "从文案库打开预览时，可发送条目的日期默认改为今天，原文案库不会被覆盖。",
+    "预览页粗略托模式恢复显示“说话人”，精准托模式才显示人设、托号昵称和备选托。",
+    "文案库预览页顶部增加醒目的日期提示，并把本机路径收进高级/调试信息。",
+    "授权总控使用报表支持点击详情查看每轮开始/结束、任务进度、脱敏场景和失败/中止原因。",
     "更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
   ]
 }
