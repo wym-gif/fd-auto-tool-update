@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.1.8",
+  "latestVersion": "2.1.9",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.8.zip",
-  "sha256": "6E18AC933EF761D5EBE3E259EEA2AC1F15EEAD7A300F37D702BD35147FD47B75",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.9.zip",
+  "sha256": "713D7AEEE1B2ADEFD98E2D0AE3F94DE25F5E84574177AF34CDFB225C6FB9EDC7",
   "notes": [
-    "修复手动范围结束位置是说话人标题时，预览漏掉标题下正文的问题。",
-    "修复飞书视频号代码块复制/解析不完整、混入代码块外壳或懒加载残留的问题。",
-    "优化飞书长文档滚动采集稳定性，减少重复复制、乱滚和漏采。",
-    "精准托正式创建按预览选定托搜索勾选，机器人不在群时按候补托重新选择。",
-    "预览页长文字和视频号参数支持查看完整详情；更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
+    "修复飞书视频号代码块工具栏残留“代码块 / XML / 复制”被当成普通文字预览的问题。",
+    "修复飞书表情包优先落地静态封面的问题，表情包会优先尝试动态预览源。",
+    "预览页“存入文案库”统一支持另存为新文案和覆盖已有文案。",
+    "优化精准托预览和正式创建流程：上一轮成功托冷却、候选轮换、按机器人关键词搜索勾选、豆妈页面不换托、多选机器人停止保护。",
+    "修复媒体素材“就绪中”时过早执行发送的问题，并补充粗略托多快捷模式提示。"
   ]
 }
