@@ -1,12 +1,13 @@
 {
-  "latestVersion": "2.1.7",
+  "latestVersion": "2.1.8",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.7.zip",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.8.zip",
+  "sha256": "6E18AC933EF761D5EBE3E259EEA2AC1F15EEAD7A300F37D702BD35147FD47B75",
   "notes": [
-    "修复云中客确认弹窗已提示机器人不在群时仍可能继续点确认创建的问题。",
-    "点击开始下一轮后会清理旧 runId，避免又恢复上一轮预览或旧云中客准备状态。",
-    "正式创建时恢复以绿色任务创建成功提示作为成功依据，确认弹窗未触发时按原逻辑重试一次。",
-    "运行中会切到当前任务对应的托/豆妈云中客页，重试、跳过和继续控制会更及时生效。",
-    "更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
+    "修复手动范围结束位置是说话人标题时，预览漏掉标题下正文的问题。",
+    "修复飞书视频号代码块复制/解析不完整、混入代码块外壳或懒加载残留的问题。",
+    "优化飞书长文档滚动采集稳定性，减少重复复制、乱滚和漏采。",
+    "精准托正式创建按预览选定托搜索勾选，机器人不在群时按候补托重新选择。",
+    "预览页长文字和视频号参数支持查看完整详情；更新不会覆盖配置、运行记录、浏览器登录状态、素材缓存、本地文案库或托人设库数据。"
   ]
 }
