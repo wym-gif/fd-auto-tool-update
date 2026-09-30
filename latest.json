@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.1.9",
+  "latestVersion": "2.1.10",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.9.zip",
-  "sha256": "713D7AEEE1B2ADEFD98E2D0AE3F94DE25F5E84574177AF34CDFB225C6FB9EDC7",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.10.zip",
+  "sha256": "2500D35DCC96E86B5117AB33CF24C07461D148FF0ED0A549405B5DCDC8310856",
   "notes": [
-    "修复飞书视频号代码块工具栏残留“代码块 / XML / 复制”被当成普通文字预览的问题。",
-    "修复飞书表情包优先落地静态封面的问题，表情包会优先尝试动态预览源。",
-    "预览页“存入文案库”统一支持另存为新文案和覆盖已有文案。",
-    "优化精准托预览和正式创建流程：上一轮成功托冷却、候选轮换、按机器人关键词搜索勾选、豆妈页面不换托、多选机器人停止保护。",
-    "修复媒体素材“就绪中”时过早执行发送的问题，并补充粗略托多快捷模式提示。"
+    "云中客配置库和自动套用增强：配置可直接复用，自动设置过程有明显处理中、成功、失败提示。",
+    "按节奏/天数读取支持单天和范围；范围内默认读取完整天数，日期会按天顺延。",
+    "第一天发单日期改为日期选择器，并缩短输入框宽度。",
+    "预览页“文案有变，重新生成预览”点击后会显示处理中，并沿用控制台原有范围设置重新读取飞书。",
+    "修复飞书文档未加载完成时过早识别失败、图片块控件文字误进预览等问题。"
   ]
 }
