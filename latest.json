@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.1.10",
+  "latestVersion": "2.2.0",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.1.10.zip",
-  "sha256": "2500D35DCC96E86B5117AB33CF24C07461D148FF0ED0A549405B5DCDC8310856",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.0.zip",
+  "sha256": "0C0F14A291B11BDA239EB4E7ABB183DF675C667A0B6F2F2E69E9D8EDF87A9150",
   "notes": [
-    "云中客配置库和自动套用增强：配置可直接复用，自动设置过程有明显处理中、成功、失败提示。",
-    "按节奏/天数读取支持单天和范围；范围内默认读取完整天数，日期会按天顺延。",
-    "第一天发单日期改为日期选择器，并缩短输入框宽度。",
-    "预览页“文案有变，重新生成预览”点击后会显示处理中，并沿用控制台原有范围设置重新读取飞书。",
-    "修复飞书文档未加载完成时过早识别失败、图片块控件文字误进预览等问题。"
+    "文案库支持上传共享、云端下载使用和已共享/更新上传状态反馈。",
+    "文案库可按当前精准托名单重新分配托，备用托更分散，首页操作区更简洁。",
+    "修复飞书采集重复、错位、媒体挂错消息和隐藏 XML 字段混入正文等问题。",
+    "预览页手动补录支持单条/多条、分钟/秒递增、选中行前后插入和拖动弹窗。",
+    "授权总控支持独立共享上传资格；客户端上传共享时会显示具体失败原因。"
   ]
 }
