@@ -1,13 +1,12 @@
 {
-  "latestVersion": "2.2.0",
+  "latestVersion": "2.2.1",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.0.zip",
-  "sha256": "0C0F14A291B11BDA239EB4E7ABB183DF675C667A0B6F2F2E69E9D8EDF87A9150",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.1.zip",
+  "sha256": "8D91815889F2D266625256BDCBD1F158987947ECD450CA1B682501B8ADF4B792",
   "notes": [
-    "文案库支持上传共享、云端下载使用和已共享/更新上传状态反馈。",
-    "文案库可按当前精准托名单重新分配托，备用托更分散，首页操作区更简洁。",
-    "修复飞书采集重复、错位、媒体挂错消息和隐藏 XML 字段混入正文等问题。",
-    "预览页手动补录支持单条/多条、分钟/秒递增、选中行前后插入和拖动弹窗。",
-    "授权总控支持独立共享上传资格；客户端上传共享时会显示具体失败原因。"
+    "在线更新支持多个更新源和补丁备用地址，检查失败原因更清楚。",
+    "云端文案支持删除，授权总控新增共享文案管理页。",
+    "文案库支持导出共享包，云端文案支持导入共享包，方便手动分享。",
+    "上传共享失败会明确提示权限、网络、超时、服务异常或文件过大。"
   ]
 }
