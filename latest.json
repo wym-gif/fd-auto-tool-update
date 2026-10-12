@@ -1,12 +1,11 @@
 {
-  "latestVersion": "2.2.2",
+  "latestVersion": "2.2.3",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.2.zip",
-  "sha256": "BF54E0BE387E754B20314C61FA34E4AAA377B60EFDC40CCBA5F5BA0538E1C590",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.3.zip",
+  "sha256": "E6E1CEC90050F18867651758617E9A94AE17D65569BDFC1E07D52D746A12C18A",
   "notes": [
-    "控制台补充云中客配置仍在修改中的提示，避免误以为会自动启用。",
-    "第一天发单日期增加默认今天说明。",
-    "修复独立第一天/第二天标题被当正文发送的问题。",
-    "修复飞书虚拟滚动尾部旧文案残影。"
+    "共享文案上传改为大包自动分片，绕过网关 16MB 请求体限制。",
+    "授权后台支持接收分片共享文案并合并入库。",
+    "保留小文案原直传逻辑，普通上传不增加操作步骤。"
   ]
 }
