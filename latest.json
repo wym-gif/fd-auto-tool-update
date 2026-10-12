@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.2.1",
+  "latestVersion": "2.2.2",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.1.zip",
-  "sha256": "8D91815889F2D266625256BDCBD1F158987947ECD450CA1B682501B8ADF4B792",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.2.zip",
+  "sha256": "BF54E0BE387E754B20314C61FA34E4AAA377B60EFDC40CCBA5F5BA0538E1C590",
   "notes": [
-    "在线更新支持多个更新源和补丁备用地址，检查失败原因更清楚。",
-    "云端文案支持删除，授权总控新增共享文案管理页。",
-    "文案库支持导出共享包，云端文案支持导入共享包，方便手动分享。",
-    "上传共享失败会明确提示权限、网络、超时、服务异常或文件过大。"
+    "控制台补充云中客配置仍在修改中的提示，避免误以为会自动启用。",
+    "第一天发单日期增加默认今天说明。",
+    "修复独立第一天/第二天标题被当正文发送的问题。",
+    "修复飞书虚拟滚动尾部旧文案残影。"
   ]
 }
