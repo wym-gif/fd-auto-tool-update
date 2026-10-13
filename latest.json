@@ -1,11 +1,11 @@
 {
-  "latestVersion": "2.2.3",
+  "latestVersion": "2.2.4",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.3.zip",
-  "sha256": "E6E1CEC90050F18867651758617E9A94AE17D65569BDFC1E07D52D746A12C18A",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.4.zip",
+  "sha256": "572E2C337C36B6964C81A206896B77F7ACC05B1FE355701CEE786AF6A2F0A66E",
   "notes": [
-    "共享文案上传改为大包自动分片，绕过网关 16MB 请求体限制。",
-    "授权后台支持接收分片共享文案并合并入库。",
-    "保留小文案原直传逻辑，普通上传不增加操作步骤。"
+    "预览阶段提前标红素材硬错误和图片/视频上传风险，避免创建任务时才发现。",
+    "新增直接导入、DOCX、富文本粘贴和飞书自动下载导入，减少滚动采集误差。",
+    "精准托在用和备用候选加入冷却，手动换托后会重排后续不同说话人候选，降低连续撞托。"
   ]
 }
