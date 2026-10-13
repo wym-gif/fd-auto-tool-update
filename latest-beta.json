@@ -1,0 +1,12 @@
+{
+  "latestVersion": "2.2.5-beta",
+  "minVersion": "2.0.5",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.5-beta.zip",
+  "sha256": "281A4812A3424A5C8CA575AB5819BDF4F7B36501A1F62374960355DF55A09E92",
+  "channel": "beta",
+  "notes": [
+    "内测版：用于验证当前开发版修复，不影响正式更新源。",
+    "包含强制覆盖更新器；当前同版本也可手动重新覆盖代码文件。",
+    "保留用户配置、浏览器资料、runs、文案库和托库数据。"
+  ]
+}
