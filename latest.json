@@ -1,10 +1,10 @@
 {
   "latestVersion": "2.2.4",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.4.zip",
-  "sha256": "572E2C337C36B6964C81A206896B77F7ACC05B1FE355701CEE786AF6A2F0A66E",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.4-force.zip",
+  "sha256": "5AA73EB44552F792A77DA26FA378CD91F92084BE88DEF0A50A781E898CB8B39E",
   "notes": [
-    "预览阶段提前标红素材硬错误和图片/视频上传风险，避免创建任务时才发现。",
+    "强制覆盖版补丁：当前已显示 2.2.4 的机器也可以重新覆盖代码文件。",
     "新增直接导入、DOCX、富文本粘贴和飞书自动下载导入，减少滚动采集误差。",
     "精准托在用和备用候选加入冷却，手动换托后会重排后续不同说话人候选，降低连续撞托。"
   ]
