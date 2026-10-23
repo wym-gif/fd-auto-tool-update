@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.2.6-beta",
+  "latestVersion": "2.2.7-beta",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.6-beta.zip",
-  "sha256": "2BCA7CC627521CF93A513D5C254556FD51A38602F708029ED2163A4D5B263A88",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.7-beta.zip",
+  "sha256": "07ED3F92972BFB583059072DDB91B30CEF554A318A70091E4E1C3B23E2EE0B84",
   "channel": "beta",
   "notes": [
-    "内测版：包含当前已批准的客户端修复，不影响正式更新源。",
-    "已授权电脑可自动开通飞书连接，并自动准备专用浏览器和内部切页模块。",
-    "预览失败后保留可修复页面，下一轮复用同一个预览标签页。",
-    "包含强制覆盖更新器；当前同版本也可手动重新覆盖代码文件。",
+    "内测版：正式版与内测版更新通道完全隔离，正式版不会收到本补丁。",
+    "飞书素材支持预览打开后后台续取，保留已成功素材和人工替换。",
+    "支持跨天或连续节奏范围、文案库按指定顺序拼接、反推排程与本轮间隔接续。",
+    "修复精准托同昵称复用和冲突人设叠加，并加固暂停、云端上传和 CMS 创建恢复。",
     "保留用户配置、浏览器资料、runs、文案库和托库数据。"
   ]
 }
