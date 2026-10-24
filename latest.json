@@ -1,11 +1,17 @@
 {
-  "latestVersion": "2.2.4",
+  "latestVersion": "2.2.8",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.4-force.zip",
-  "sha256": "5AA73EB44552F792A77DA26FA378CD91F92084BE88DEF0A50A781E898CB8B39E",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.8.zip",
+  "sha256": "28FBC18F8250B81B5AF84553689864A03AF5B7348FC1FA985798BDAAEB24D5FB",
+  "channel": "stable",
   "notes": [
-    "强制覆盖版补丁：当前已显示 2.2.4 的机器也可以重新覆盖代码文件。",
-    "新增直接导入、DOCX、富文本粘贴和飞书自动下载导入，减少滚动采集误差。",
-    "精准托在用和备用候选加入冷却，手动换托后会重排后续不同说话人候选，降低连续撞托。"
+    "正式版累计更新：从 2.2.4 一次升级，包含近期已验证的客户端修复。",
+    "接入公司飞书 API；素材支持后台续取、限流等待和失败项补取，保留成功素材及人工替换。",
+    "修复创建失败后无法重试：保留已成功内容，支持从当前条重试或跳过，继续保留未知提交的防重复保护。",
+    "修复精准托选择、暂停继续和跳过恢复，保留原页面和机器人配置检查。",
+    "修正文案库复用误报，原文跨天只识别日期/第几天标题；保留预览人工修改。",
+    "包含预览补录、时间重排、结束时间、共享文案上传下载和飞书凭据存储的已验证修复。",
+    "正式与内测更新通道分开；授权与更新失败提示更准确。",
+    "保留本机授权配置、工作设置、历史任务、素材、文案库、托库及浏览器资料。"
   ]
 }
