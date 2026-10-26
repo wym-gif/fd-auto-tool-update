@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.2.7-beta",
+  "latestVersion": "2.2.8-beta",
   "minVersion": "2.0.5",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.7-beta.zip",
-  "sha256": "07ED3F92972BFB583059072DDB91B30CEF554A318A70091E4E1C3B23E2EE0B84",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.8-beta.zip",
+  "sha256": "E168056F0D6E829B4997536F41A3041D99A9FBA23388E10660F42620908F6DA2",
   "channel": "beta",
   "notes": [
-    "内测版：正式版与内测版更新通道完全隔离，正式版不会收到本补丁。",
-    "飞书素材支持预览打开后后台续取，保留已成功素材和人工替换。",
-    "支持跨天或连续节奏范围、文案库按指定顺序拼接、反推排程与本轮间隔接续。",
-    "修复精准托同昵称复用和冲突人设叠加，并加固暂停、云端上传和 CMS 创建恢复。",
-    "保留用户配置、浏览器资料、runs、文案库和托库数据。"
+    "内测版 2.2.8-beta：正式版与内测版更新通道完全隔离，正式版不会收到本补丁。",
+    "修复专用浏览器重复下载、自动切页恢复和慢启动误报，继续复用原实例登录目录。",
+    "修复云中客页面补开、文案库新一轮换组托、未来日期、数字昵称及精准托等待。",
+    "加固飞书 API 预览、素材续取、提交去重、暂停继续、跳过及创建失败恢复。",
+    "保留授权配置、用户设置、浏览器资料、runs、文案库、托库、素材缓存和提交状态。"
   ]
 }
