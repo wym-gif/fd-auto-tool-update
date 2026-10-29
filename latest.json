@@ -1,15 +1,15 @@
 {
-  "latestVersion": "2.2.8",
+  "latestVersion": "2.2.9",
   "minVersion": "2.0.5",
   "channel": "stable",
-  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.8.zip",
-  "sha256": "E2EBEC60546B1F2CD42B7A8A68D625616DB03150A63DE09552AD1EF2B3928E2C",
+  "patchUrl": "https://raw.githubusercontent.com/wym-gif/fd-auto-tool-update/main/patches/fd-auto-tool-patch-v2.2.9.zip",
+  "sha256": "16B81DBF7EC8C19DC7ED0CCE48E5D5DEA66B3857239E430FA70C218FE00A8D44",
   "notes": [
-    "正式版 2.2.8：正式与内测更新通道继续独立，正式用户不会收到内测版本。",
-    "新增到点创建立即发送模式，并在云中客页显示当前、原定、预计实时发送时间和倒计时。",
-    "精准托按本轮真实成功发送记录整轮轮换，统一角色切换、手动补录及候选重叠处理。",
-    "随机托恢复互动组集中排序，修复飞书正文局部高亮误判发言人。",
-    "已授权进程使用当前会话授权，短时网络波动不再让正在创建的任务误停。",
+    "正式版 2.2.9：正式与内测更新通道继续独立，正式用户不会收到内测版本。",
+    "修复按节奏和天数选择时的节点边界，并支持带‘下面还会出现’尾注的角色标题定位。",
+    "填写结束时间时，自定义间隔可只填下限并尽量让最后一条落在目标结束时间。",
+    "减少非关键 CMS 页面变化造成的误停，并补充未提交内容及结果未知的人工恢复入口。",
+    "修复图片或表情包已上传就绪后因控件重绘或超时误报素材上传入口缺失。",
     "保留授权配置、用户设置、浏览器资料、历史任务、文案库、托库、素材缓存和提交状态。"
   ]
 }
